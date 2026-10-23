@@ -1,0 +1,9 @@
+parent,child,relationship_type,status,verification,evidence,is_synthetic
+Alphabet Inc.,Google LLC,parent_subsidiary,reported_ownership,needs_filing_check,Widely reported; not yet checked against Alphabet Form 10-K Exhibit 21,False
+Google LLC,YouTube,parent_subsidiary,reported_ownership,needs_filing_check,Widely reported; not yet checked against a filing,False
+Meta Platforms,Instagram,parent_subsidiary,reported_ownership,needs_filing_check,Widely reported; not yet checked against a filing,False
+Meta Platforms,WhatsApp,parent_subsidiary,reported_ownership,needs_filing_check,Widely reported; not yet checked against a filing,False
+Microsoft,LinkedIn,parent_subsidiary,reported_ownership,needs_filing_check,Widely reported; not yet checked against a filing,False
+Microsoft,GitHub,parent_subsidiary,reported_ownership,needs_filing_check,Widely reported; not yet checked against a filing,False
+Walt Disney Company,Pixar,parent_subsidiary,reported_ownership,needs_filing_check,Widely reported; not yet checked against a filing,False
+Amazon,Whole Foods Market,parent_subsidiary,reported_ownership,needs_filing_check,Widely reported; not yet checked against a filing,False

@@ -1,0 +1,209 @@
+{
+  "data_note": "Training data is synthetic (templates); test set is hand-written but also synthetic (fictional companies). Scores are indicative only, NOT real-world accuracy.",
+  "n_train": 192,
+  "n_test": 40,
+  "test_ids": [
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007",
+    "S008",
+    "S009",
+    "S010",
+    "S011",
+    "S012",
+    "S013",
+    "S014",
+    "S015",
+    "S016",
+    "S017",
+    "S018",
+    "S019",
+    "S020",
+    "S021",
+    "S022",
+    "S023",
+    "S024",
+    "S025",
+    "S026",
+    "S027",
+    "S028",
+    "S029",
+    "S030",
+    "S031",
+    "S032",
+    "S033",
+    "S034",
+    "S035",
+    "S036",
+    "S037",
+    "S038",
+    "S039",
+    "S040"
+  ],
+  "heldout": {
+    "n": 40,
+    "accuracy": 0.95,
+    "macro_precision": 0.9583333333333334,
+    "macro_recall": 0.95,
+    "macro_f1": 0.9494949494949495,
+    "labels": [
+      "Acquisition",
+      "Company Sale / Divestiture",
+      "Corporate Restructuring",
+      "Executive Change",
+      "Hostile Takeover / Attempted Takeover",
+      "Merger",
+      "Other / No Relevant Corporate Event",
+      "Regulatory Action"
+    ],
+    "per_class": {
+      "Acquisition": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1-score": 0.8888888888888888,
+        "support": 5.0
+      },
+      "Company Sale / Divestiture": {
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1-score": 0.9090909090909091,
+        "support": 5.0
+      },
+      "Corporate Restructuring": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "Executive Change": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "Hostile Takeover / Attempted Takeover": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "Merger": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "Other / No Relevant Corporate Event": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1-score": 0.8888888888888888,
+        "support": 5.0
+      },
+      "Regulatory Action": {
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1-score": 0.9090909090909091,
+        "support": 5.0
+      },
+      "accuracy": 0.95,
+      "macro avg": {
+        "precision": 0.9583333333333334,
+        "recall": 0.95,
+        "f1-score": 0.9494949494949495,
+        "support": 40.0
+      },
+      "weighted avg": {
+        "precision": 0.9583333333333334,
+        "recall": 0.95,
+        "f1-score": 0.9494949494949495,
+        "support": 40.0
+      }
+    },
+    "confusion": [
+      [
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5
+      ]
+    ]
+  }
+}
