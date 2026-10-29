@@ -30,3 +30,5 @@ These are NOT real-world accuracy: all data is synthetic and the same author wro
 
 ## Limitations
 Single-label classification (articles can contain several events); rules cover common sentence patterns only; NER can mislabel unfamiliar names; "date mentioned" is the first date in the evidence sentence, not a verified announcement date; confidence is a model score, not a probability of being correct; live RSS/HTML collection was not tested against real sites.
+
+Demo Video Link : https://drive.google.com/uc?id=1KxtIiMuQSuz34XCb8U3g-xoFh-Tn9Odv&export=download
